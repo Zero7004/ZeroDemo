@@ -29,4 +29,5 @@ target 'ZeroDemo' do
    pod 'Reachability'
    pod 'AFNetworking'
    pod 'TRUNetworking', :path => 'ZeroLib/TRUNetworking'
+   pod 'TRULogining', :path => 'ZeroLib/TRULogining'
 end

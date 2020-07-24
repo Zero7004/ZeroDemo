@@ -15,11 +15,14 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Reachability (3.2)
+  - TRULogining (0.1.0):
+    - TRUNetworking
   - TRUNetworking (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking
   - Reachability
+  - TRULogining (from `ZeroLib/TRULogining`)
   - TRUNetworking (from `ZeroLib/TRUNetworking`)
 
 SPEC REPOS:
@@ -28,14 +31,17 @@ SPEC REPOS:
     - Reachability
 
 EXTERNAL SOURCES:
+  TRULogining:
+    :path: ZeroLib/TRULogining
   TRUNetworking:
     :path: ZeroLib/TRUNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TRULogining: ef6a48dfaa77d6d129e349dd3f62bb19323f904c
   TRUNetworking: b872d7b3c0f6c7dadb9cc577a5597404ac29c5cf
 
-PODFILE CHECKSUM: 56bd79376d04fb6179e13427207107db6717b22c
+PODFILE CHECKSUM: 76198695ca564d1f0705127f9b9437de1b23e6a5
 
 COCOAPODS: 1.9.1

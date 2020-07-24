@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-ZeroDemo/Pods-ZeroDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
+${BUILT_PRODUCTS_DIR}/TRULogining/TRULogining.framework
 ${BUILT_PRODUCTS_DIR}/TRUNetworking/TRUNetworking.framework
