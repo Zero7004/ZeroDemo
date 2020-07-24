@@ -28,4 +28,5 @@ use_frameworks!
 target 'ZeroDemo' do
    pod 'Reachability'
    pod 'AFNetworking'
+   pod 'TRUNetworking', :path => 'ZeroLib/TRUNetworking'
 end
