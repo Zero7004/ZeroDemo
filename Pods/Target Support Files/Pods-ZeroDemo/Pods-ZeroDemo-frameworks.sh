@@ -201,12 +201,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TRULogining/TRULogining.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TRUNetworking/TRUNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WJLTestTrunk/WJLTestTrunk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TRULogining/TRULogining.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TRUNetworking/TRUNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WJLTestTrunk/WJLTestTrunk.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

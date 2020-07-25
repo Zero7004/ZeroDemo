@@ -1,0 +1,6 @@
+framework module WJLTestTrunk {
+  umbrella header "WJLTestTrunk-umbrella.h"
+
+  export *
+  module * { export * }
+}

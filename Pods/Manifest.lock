@@ -18,17 +18,20 @@ PODS:
   - TRULogining (0.1.0):
     - TRUNetworking
   - TRUNetworking (0.1.0)
+  - WJLTestTrunk (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking
   - Reachability
   - TRULogining (from `ZeroLib/TRULogining`)
   - TRUNetworking (from `ZeroLib/TRUNetworking`)
+  - WJLTestTrunk
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - Reachability
+    - WJLTestTrunk
 
 EXTERNAL SOURCES:
   TRULogining:
@@ -41,7 +44,8 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   TRULogining: ef6a48dfaa77d6d129e349dd3f62bb19323f904c
   TRUNetworking: f1d7a8078c6662da1a4a0a97e918160bef6e0290
+  WJLTestTrunk: 71b7916b7d3f9c6109fba0887fbff090681027ae
 
-PODFILE CHECKSUM: 76198695ca564d1f0705127f9b9437de1b23e6a5
+PODFILE CHECKSUM: 5652fcc456383e40b811e00a0e4b4892374a4c2c
 
 COCOAPODS: 1.9.1

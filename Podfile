@@ -30,4 +30,5 @@ target 'ZeroDemo' do
    pod 'AFNetworking'
    pod 'TRUNetworking', :path => 'ZeroLib/TRUNetworking'
    pod 'TRULogining', :path => 'ZeroLib/TRULogining'
+   pod 'WJLTestTrunk'
 end
